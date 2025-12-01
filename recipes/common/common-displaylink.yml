@@ -7,4 +7,4 @@ modules:
   - type: akmods
     base: main
     install:
-      - evdi # kernel module required for use of displaylink
+      - displaylink
