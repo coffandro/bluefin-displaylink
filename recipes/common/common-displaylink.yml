@@ -1,11 +1,11 @@
 ---
 modules:
  - type: dnf
-   repos:
-    nonfree: negativo17
-   install:
-    packages:
-     - displaylink
+   - repos:
+      nonfree: negativo17
+   - install:
+      packages:
+       - displaylink
   
   - type: akmods
     base: main
