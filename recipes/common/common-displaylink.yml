@@ -1,8 +1,11 @@
 ---
 modules:
-  - type: bling
-    install:
-        - negativo17 # install negativo17 repos and set priority to 90, uninstall RPMFusion repos if installed
+ - type: dnf
+   repos:
+    nonfree: negativo17
+   install:
+    packages:
+     - displaylink
   
   - type: akmods
     base: main
